@@ -14,7 +14,7 @@ export default function Silksong(){
                 <Stack.Screen
                 name = "start"
                 component = {StartScreen}
-                options = {{headerTransparent: true}}
+                options = {{headerTransparent: true, headerShown: false}}
                 />
             
                 <Stack.Screen
