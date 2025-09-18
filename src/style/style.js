@@ -32,15 +32,14 @@ const styles = StyleSheet.create({
     marginTop: 40,
     marginLeft: 10,
     resizeMode: "contain",
-    tintColor: "#144273"
+    tintColor: "#ffffffff"
    },
    containerStartImage:{
       height: 120,
       width: 120,
       position: "absolute",
       top: 10,
-      alignSelf: "center"
-
+      left: 20
    },
    imageTenis: {
       alignItems: "center",
@@ -142,6 +141,89 @@ const styles = StyleSheet.create({
       top: 300,
       alignSelf: "center"
    },
+   silksong2:{
+      
+      height: 150,
+      flexDirection: "row",
+      position: "absolute",
+      top: 150,
+      alignSelf: "center"
+   },
+   containerTennis:{
+      width: 140,
+   },
+   starWarseMuitoRuim:{
+      height: 130,
+      alignItems: "center",
+      position: "absolute",
+      top: 10,
+      alignSelf: "center",
+      backgroundColor: "#F2C94C",
+      borderRadius: 10
+   },
+     starWarseMuitoRuim1:{
+      height: 130,
+      alignItems: "center",
+      position: "absolute",
+      top: 10,
+      alignSelf: "center",
+      backgroundColor: "#cac7c7ff",
+      borderRadius: 10
+   },
+   hornet: {
+      position: "absolute",
+      top: 64,
+      borderWidth: 1,
+      borderRadius: 100,
+      right: 30
+   },
+   iconeNike:{
+      height: 120,
+      width: 120,
+      position: "absolute",
+      top: 10,
+      alignSelf: "center"
+   },
+    criaDoGTASanAndreas:{
+    height: 70,
+    width: 100,
+    marginTop: 40,
+    marginLeft: 10,
+    resizeMode: "contain",
+    tintColor: "#144273",
+    
+   },
+   iconeContainer:{
+      borderRadius: 100,
+      width: 40,
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: "#144273",
+      elevation: 2,
+      borderWidth: 0.1
+      
+
+   },
+    iconeContainer1:{
+     borderRadius: 100,
+     width: 40,
+     justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#2ED982",
+    elevation: 2,
+      borderWidth: 0.1
+   },
+   gostoDeJogarDeKayn:{
+      position: "absolute",
+      bottom: 180,
+      left: 40
+   },
+   gragasDoLol:{
+      position: "absolute",
+      bottom: 240,
+      left: 40
+      
+   }
 })
 
 export default styles;

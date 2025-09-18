@@ -24,11 +24,45 @@ export default function StartScreen({navigation}){
         style={styles.gradient}
         >
             <View style={styles.tela}> 
-                <View style = {styles.containerStartImage}>
+                <View style = {styles.iconeNike}>
                     <Image 
                     source={require("../../assets/logo_nike.png")}
-                    style={styles.startImage}
+                    style={styles.criaDoGTASanAndreas}
                     />
+                </View>
+
+                <View style={styles.hornet}>
+                    <Image
+                    source={require("../../assets/silksong.jpg")}
+                    style={{resizeMode: "cover", width: 50, height: 50, borderRadius: 100}}
+                    />
+                </View>
+
+                <View style={styles.silksong2}>
+                    <View style={styles.containerTennis}>
+                        <View style={styles.starWarseMuitoRuim}>
+                            <Image
+                            source={require("../../assets/thumb_tennis_1.png")}
+                            style={{marginTop: 15}}
+                            />
+                        </View>
+                    </View>
+
+                    <View style={styles.containerTennis}>
+                        <View style={styles.starWarseMuitoRuim1}>
+                            <Image
+                            source={require("../../assets/thumb_tennis_2.png")}
+                            />
+                        </View>
+                    </View>
+
+                    <View style={styles.containerTennis}> 
+                        <View style={styles.starWarseMuitoRuim1}>
+                            <Image
+                            source={require("../../assets/thumb_tennis_3.png")}
+                            />
+                        </View>
+                    </View>
                 </View>
 
                 <View style= {styles.homeImageTenis1}>
@@ -55,6 +89,31 @@ export default function StartScreen({navigation}){
                         </Text>
                     </View>
 
+                    <View style={styles.gragasDoLol}>
+                        <Text style={{fontFamily: "IstokWeb_400Regular", color: "#144273", fontSize: 40, fontFamily: "IstokWeb_400Regular"}}>
+                            Preço
+                        </Text>
+                    </View>
+
+                    <View style={styles.gostoDeJogarDeKayn}>
+                        <Text style={{fontFamily: "IstokWeb_400Regular", color: "#144273", fontFamily: "HoltwoodOneSC_400Regular", fontSize: 50}}>
+                            $799
+                        </Text>
+                    </View>
+
+                    <View style={{ position: "absolute", bottom: 130, flexDirection: "row", right: 60, width: 100, height: 40, justifyContent: "space-between"}}>
+                        <View style={styles.iconeContainer}>
+                            <Image
+                            source={require("../../assets/share_icon.png")}
+                            />
+                        </View>
+
+                            <View style={styles.iconeContainer1}>
+                            <Image
+                            source={require("../../assets/shopping_bag_icon.png")}
+                            />
+                        </View>
+                    </View>
                
             </View>
         </LinearGradient>
